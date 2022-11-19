@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Gilroy-Heavy";
+    src: url('../fonts/gilroy/Gilroy-Heavy.ttf');
+    font-weight: 800;
+  }
+  
+  @font-face {
+    font-family: "Gilroy-Bold";
+    src: url('../fonts/gilroy/Gilroy-Bold.ttf');
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: "Gilroy-Light";
+    src: url('../fonts/gilroy/Gilroy-Light.ttf');
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: "Gilroy-Medium";
+    src: url('../fonts/gilroy/Gilroy-Medium.ttf');
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: "Gilroy-Regular";
+    src: url('../fonts/gilroy/Gilroy-Regular.ttf');
+    font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.df {
+  display: flex;
+  align-items: center;
+}
+.cursor {
+  cursor: pointer;
+}
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+  background: none;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #7B36CE;
+}

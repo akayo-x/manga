@@ -1,0 +1,223 @@
+.hot_manga_titles {
+    margin-top: 60px;
+}
+.hot_manga_title h1 {
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.055em;
+    color: #000000;
+}
+.hot_manga_btn {
+    width: 84px;
+    height: 38px;
+    background: #5F25A6;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.hot_manga_btn:nth-child(1) {
+    margin-left: 0px;
+}
+.hot_manga_btn p {
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.hot_manga_btn:hover {
+    background: #E0C6FF;
+    transition: 0.8s all;
+    border-color: #5F25A6;
+}
+.hot_manga_btn p:hover {
+    transition: 0.8s all;
+    color: #111111;
+}
+.hot_manga_cards {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.hot_manga_card_item:nth-child(1) {
+    margin-left: 0px;
+}
+.hot_manga_card_item {
+    margin-left: 10px;
+}
+.hot_manga_card_item_titles {
+    width: 80px;
+    height: 336px;
+    background: linear-gradient(0deg, #7B36CE 0%, #5F25A6 100%, rgba(217, 217, 217, 0) 100%, #5F25A6 100%);
+    border-radius: 15px 0px 0px 15px ;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    left: 10px;
+    margin-bottom: 5px;
+    z-index: 999;
+}
+figcaption h3{
+    font-family: 'Gilroy-Medium';
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000 !important;
+    margin-left: 15px;
+}
+figcaption{
+    color: #000000 !important;
+}
+.read_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.read_text,
+.info_text {
+    justify-content: center;
+}
+.read_text {
+    margin-top: 50px;
+    width: 180px;
+    height: 40px;
+    background: #FCE155;
+    border-radius: 6px;
+}
+.read_text p {
+    font-family: 'Gilroy-Medium';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: 11px;
+}
+.info_text {
+    margin-top: 11px;
+}
+.info_text p{
+    font-family: 'Gilroy-Medium';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: 5px;
+}
+.hot_manga_card_item_desc_info {
+    margin-top: 10px;
+}
+.hot_manga_card_item_desc_info img {
+    margin-left: 20px;
+}
+.hot_manga_card_item_desc_info p {
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: 10px;
+}
+.hot_manga_card_item_names h3{
+    font-family: 'Gilroy-Bold';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 88.3%;
+    color: #FFFFFF;
+    width: 169px;
+    transform: rotate(-90deg);
+    margin-bottom: 35px;
+}
+.hot_manga_card_item_names p {
+    font-family: 'Gilroy-Bold';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+    margin-bottom: 80px;
+}
+
+.genres {
+    margin-top: 25px;
+}
+.genres_item:nth-child(1) {
+    margin-left: 0px;
+}
+.genres_item {
+    width: 72px;
+    height: 38px;
+    background: #E0C6FF;
+    border-radius: 4px;
+    font-family: 'Gilroy-Medium';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5F25A6;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.genres_item:nth-child(2) {
+    width: 97px;
+}
+.genres_item:nth-child(3) {
+    width: 85px;
+}
+.genre_item {
+    width: 73px;
+    height: 38px;
+    background: #E0C6FF;
+    border-radius: 4px;
+    margin-left: 19px;
+    margin-top: 10px;
+    font-family: 'Gilroy-Medium';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5F25A6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.genre_item:nth-child(1) {
+    margin-left: 0px;
+}
+.genres_more {
+    width: 44px;
+    height: 17px;
+    background: none;
+    border-radius: 4px;
+    font-family: 'Gilroy-Medium';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.bender {
+    width: 129px;
+}
+.marticac {
+    width: 104px;
+}
+.hot_manga_card_item_desc {
+    display: none;
+}
+.img_blog {
+    display: block;
+}
+.active {
+    display: none;
+}
+

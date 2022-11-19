@@ -1,0 +1,140 @@
+/* TopHeader */
+.top_header {
+    background: #5F25A6;
+    height: 58px;
+}
+
+.top_head {
+    justify-content: space-between;
+}
+
+.top_head_items {
+    justify-content: flex-start;
+}
+
+.top_head_item {
+    padding: 17px 70px 17px 0px;
+}
+
+.top_head_item p {
+    margin-left: 10px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.follow_item_wrap {
+    justify-content: flex-end;
+}
+
+.follow_item {
+    justify-content: flex-end;
+    margin-left: 27px;
+}
+
+.follow_item_title p {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.follow_item p {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    margin-left: 7px;
+}
+
+/* TopHeader */
+/* BottomHeader */
+.bottom_header {
+    background: #7B36CE;
+    height: 120px;
+}
+
+/* .bottom_head_items {
+    justify-content: space-around;
+} */
+.logo_img {
+    /* margin: 23px 70px 24px 0px; */
+    margin-top: 23px;
+}
+
+.filter {
+    width: 322px;
+    height: 53px;
+    background: #fff;
+    border-radius: 9px;
+    margin: 23px 0px 0px 29px;
+}
+
+.filter_text {
+    width: 53px;
+    height: 35px;
+    background: #E9DAFF;
+    border-radius: 6px;
+    margin: 9px 7px 9px;
+}
+
+.filter_text p {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5F25A6;
+    padding: 10px 6px 8px 6px;
+    text-align: center;
+}
+
+.filter input {
+    margin: 19px 12px 17px;
+    outline: none;
+    border: none;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6C757D;
+}
+
+.filter img {
+    padding: 0px 0px 0px 15px;
+}
+
+.menu {
+    margin-top: 23px;
+}
+
+.menu ul li a {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    margin-left: 55px;
+}
+
+.modes {
+    margin: 23px 0px 0px 50px;
+}
+
+.head_item {
+    margin-left: 80px;
+}
+
+.head_item p {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    margin-left: 8px;
+}
+
+/* BottomHeader */

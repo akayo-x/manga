@@ -1,26 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Header/>
+  <MainScreen/>
+  <HotManga/>
+  <UpdateManga/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from '@/components/app/Header.vue'
+import MainScreen from '@/components/MainScreen'
+import HotManga from "@/components/HotManga";
+import UpdateManga from "@/components/UpdateManga";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+    MainScreen,
+    HotManga,
+    UpdateManga
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>

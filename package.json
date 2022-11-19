@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "imagehover.css": "^2.0.0",
+    "swiper": "^8.4.4",
     "vue": "^3.2.13"
   },
   "devDependencies": {
